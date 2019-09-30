@@ -1,0 +1,21 @@
+spring:
+   application:
+      name: myspringboot
+   datasource:
+      driver-class-name: org.hsqldb.jdbc.JDBCDriver
+      url: jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
+      username: sa
+      password: password
+   jpa:
+      hibernate:
+        ddl-auto: create
+server:
+    servlet:
+      context-path: /readFile
+    port: 8080
+    
+logfile:
+    path: /Users/subrat/Documents/logfile_1.txt
+    
+        
+  
